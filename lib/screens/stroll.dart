@@ -52,7 +52,6 @@ class _StrollState extends State<Stroll> {
                   ],
                 ),
               ),
-              // Black section taking up 40%
               Expanded(
                 flex: 4,
                 child: Container(
@@ -95,7 +94,7 @@ class _StrollState extends State<Stroll> {
                             ),
                             const SizedBox(width: 4),
                             Image.asset(
-                              'assets/icons/vector-1.png',
+                              'assets/icons/Vector4.png',
                               height: 25,
                               width: 25,
                             ),
@@ -132,7 +131,7 @@ class _StrollState extends State<Stroll> {
           style: AppTextStyles.body,
         ),
         const SizedBox(width: 8),
-        Image.asset('assets/icons/vector1.png', width: 15, height: 15),
+        Image.asset('assets/icons/Vector1.png', width: 15, height: 15),
         const Text(
           ' 103',
           style: AppTextStyles.body,
@@ -148,14 +147,12 @@ class _StrollState extends State<Stroll> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Profile Section
           Stack(
             clipBehavior: Clip.none,
             children: [
-              // Dark background shape
               Positioned(
                 left: 25,
-                right: 210,
+                right: 250,
                 top: -15,
                 child: Container(
                   height: 24,
@@ -189,12 +186,13 @@ class _StrollState extends State<Stroll> {
                       child: Container(
                         margin: const EdgeInsets.all(6),
                         padding: const EdgeInsets.all(2),
-                        decoration: const BoxDecoration(
+                        decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
-                            image: AssetImage('assets/images/joey.png'),
+                            image: AssetImage('assets/images/Joey.png'),
                             fit: BoxFit.cover,
                           ),
+                          color: Colors.grey[400],
                         ),
                       ),
                     ),

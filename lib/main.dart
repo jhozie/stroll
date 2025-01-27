@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           destinations: <NavigationDestination>[
             NavigationDestination(
               icon: SvgPicture.asset(
-                'assets/icons/vector.svg',
+                'assets/icons/Vector.svg',
               ),
               label: '',
             ),
@@ -74,13 +74,13 @@ class _HomePageState extends State<HomePage> {
             ),
             NavigationDestination(
               icon: SvgPicture.asset(
-                'assets/icons/chat.svg',
+                'assets/icons/Chat.svg',
               ),
               label: '',
             ),
             NavigationDestination(
               icon: SvgPicture.asset(
-                'assets/icons/user.svg',
+                'assets/icons/User.svg',
               ),
               label: '',
             ),
